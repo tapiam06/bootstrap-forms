@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title> New York City </title>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>How Well Do You Know NYC?</h1>
+
+  <p> The City of New York is the most populous city in the country. NYC has been described as the cultural, financial and media capital of the world. With millions of tourtists visiting the fast-paced city every year, it has become one of the world's most photographed cities. </p>
+
+  <p>The information for this quiz was pulled from <a href="https://en.wikipedia.org/wiki/New_York_City">Wikipedia.</a></p>
+
+  <div class="row">
+
+    <div class="col-lg-9 col-md-10 col-sm-12"> <!--holding the form?-->
+      <form>
+      <div class="form-group">
+        <label class="form-control-label" for="Question One">What is the name for the iconic brightly illuminated hub of the Broadway Theater District?</label>
+        <input class="form-control" type="text" id="questionone">
+      </div>
+
+      <div class="form-group">
+        <label class="form-control-label" for="Question Two"> Name one of one of the five boroughs in New York City.</label>
+        <input class="form-control" type="text" id="questiontwo">
+      </div>
+
+      <div class="form-group">
+        <label class="form-control-label" for="Question Three"> What record does NYC hold in regards to its LGBT community?</label>
+        <textarea class="form-control" id="questionthree" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="d-block"> As of 2016, what was the estimated population? </label>
+
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="questionfour" value="yes" checked> 8.5 million </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="questionfour" value="no" checked> 10 million </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="questionfour" value="no" checked> 15 million </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="questionfour" value="no" checked> 7 million </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label> Check all of the landmarks that are in NYC.</label>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Golden Gate Bridge </label>
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Empire State Building </label>
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Statue of Liberty </label>
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Alcatraz </label>
+        </div>
+
+      </div> <!--Question 5-->
+
+      <div class= "form-group">
+        <label>Which race or ethnicity maakes up most of the population?</label>
+        <select class="custom-select id=questionsix">
+          <option selected>Open this select menu</option>
+          <option value="1">White</option>
+          <option value="2">Black</option>
+          <option value="3">Native American</option>
+          <option value="4">Hispanic</option>
+          <option value="5">Asian</option>
+          <option value="6">Pacific Islander</option>
+        </select>
+      </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-secondary">Reset</button>
+
+      </form>
+    </div><!--column-->
+  </div><!--row-->
+  </div><!--container -->
+</body>
+</html>
